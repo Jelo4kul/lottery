@@ -4,10 +4,9 @@ const { interface, bytecode } = require('./compile');
 
 //HDWalletProvider connects to a certain network and unlocks an account for use on the network
 const provider = new HDWalletProvider(
-    'effort project flush chaos firm aim weekend quote south toss dash lava',
-    'https://kovan.infura.io/v3/d1c5b591e99548519b995325db92d039'
+    'seed phrase',
+    'infura api key'
 );
-//'https://rinkeby.infura.io/v3/5803fca81131450ab4445ee2d3b740ad'
 
 const web3 =  new Web3(provider);
 
